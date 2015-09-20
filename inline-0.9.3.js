@@ -562,7 +562,7 @@
 
         Future.prototype.modify = function(func) {
             if (typeof func === 'string')
-                var func = Function('data', func);
+                var func = Function('data', 'return ' + func);
             this.actions.push(func);
             return this;
         }

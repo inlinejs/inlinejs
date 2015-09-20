@@ -9,4 +9,4 @@ The purpose is:
  - To make it easy to control the flow of asynchrous code
  - To make it easier to reuse asynchronous code
 
- __Documentation will be available soon__
+[Documentation](http://inlinejs.net)
